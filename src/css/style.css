@@ -1,6 +1,7 @@
 body {
   background-color: #000000;
   color: #ffffff;
+  font-family: "Inter", system-ui, sans-serif;
 }
 
 .container {
@@ -62,12 +63,6 @@ body {
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 16px;
-}
-
-.search-content {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;  /* aqui */
 }
 
 .input-container{
