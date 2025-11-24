@@ -90,7 +90,7 @@ body {
 .mood-textarea:focus {
   border-color: #00ffff;
   outline: none;
-  box-shadow: 0 0 0 3px rgba(9, 214, 229, 0.4);
+  box-shadow: 0 4px 12px rgba(9, 214, 229, 0.4);
 }
 
 .examples {
@@ -139,57 +139,6 @@ body {
   transition: transform 0.2s ease;
 }
 
-/* Animação robo */
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes scaleIn {
-  0% {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-@keyframes float {
-
-  0%,
-  100% {
-    transform: translateY(0px);
-  }
-
-  50% {
-    transform: translateY(-20px);
-  }
-}
-
-@keyframes pulse {
-
-  0%,
-  100% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0.5;
-  }
-}
-
-/* Estilos para grid de filmes responsivo */
 #results {
   width: 100%;
   margin-top: 32px;
@@ -218,7 +167,7 @@ body {
 }
 
 .movie-card:hover {
-  border-color: #e50914;
+  border-color: #00eeff;
   transform: translateY(-8px) scale(1.03);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.28);
 }
@@ -229,7 +178,6 @@ body {
 
 .movie-poster img {
   width: 100%;
-  /* height: 420px; */
   object-fit: cover;
 }
 
@@ -266,7 +214,7 @@ body {
 }
 
 .movie-rating {
-  color: #e50914;
+  color: #00eeff;
   font-size: 18px;
   font-weight: 600;
 }
